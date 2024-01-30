@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./User.module.css";
+import avatarImage from "./assets/images/avatar-jessica.jpeg";
 
 export function User() {
   return (
@@ -9,7 +10,7 @@ export function User() {
           <div className={styles.profile}>
             <img
               className={styles.avatar}
-              src="../assets/images/avatar-jessica.jpeg"
+              src={avatarImage}
               alt="Avatar"
             />
             <h1>Jessica Randall</h1>
