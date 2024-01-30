@@ -1,0 +1,111 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: -200rem;
+    height: 25rem;
+}
+
+
+.user {
+    width: 25rem;
+    height: 40rem;
+    background: var(--gray-800);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.avatar {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 200px;
+    padding: 0.2rem;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.buttonContainer {
+    width: 90%;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: greenyellow;
+    height: 20rem;
+}
+
+.buttonContainer button {
+    width: 100%;
+    text-decoration: none;
+    background: var(--gray-600);
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    border: 1px solid var(--gray-600);
+    
+}
+
+.buttonContainer button a {
+    text-decoration: none;
+    height: 50px;
+    padding: 0 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    transition: background 0.2s ease;
+}
+
+.buttonContainer a:hover {
+    background: greenyellow;
+    color: var(--gray-600);
+    border-radius: 8px;
+    border: 1px solid var(--gray-600);
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Roboto' sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    color: greenyellow;
+    font-size: 1.1rem;
+    font-family: 'Roboto' sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Roboto' sans-serif;
+    color: var(--white);
+}
+
+.attribution {
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter' sans-serif;
+    font-size: 0.8rem;
+    height: 4rem;
+    color: white;
+}
